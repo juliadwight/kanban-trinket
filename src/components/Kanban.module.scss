@@ -1,0 +1,29 @@
+.Form {
+  margin-bottom: 2em;
+  label{
+    color: #29335F;
+    font-size: larger;
+    margin-right: 0.5em;
+  }
+  input{
+    border-radius: 1em;
+    padding: 0.5em;
+    &:focus{
+      outline: 0;
+      border-color: #4261E9;
+    }
+  }
+}
+
+.Container{
+  margin: 0.5em;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.Stage {
+  padding: 0 0 0 1em;
+  border: #29335F solid 1px;
+  border-radius: 6px;
+  margin-bottom: 0.5em;
+  height: 14vh;
+}

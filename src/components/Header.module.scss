@@ -1,0 +1,25 @@
+.Header {
+  background-color: mix(#fff, #002BFB, 82%);
+  text-align: center;
+  padding: 1em;
+  border-radius: 6px 6px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  .Title {
+    font-size: 4em ;  
+    font-weight: 900;
+    text-shadow: 
+      -0.0075em 0.0075em 0 mix(#fff, #002BFB, 94%),
+      0.005em 0.005em 0 mix(#fff, #002BFB, 60%),
+      0.01em 0.01em 0 mix(#fff, #002BFB, 62%), 
+      0.015em 0.015em mix(#fff, #002BFB, 64%), 
+      0.02em 0.02em 0 mix(#fff, #002BFB, 66%), 
+      0.025em 0.025em 0 mix(#fff, #002BFB, 68%),
+      0.03em 0.03em 0 mix(#fff, #002BFB, 70%),
+      0.035em 0.035em 0 mix(#fff, #002BFB, 72%);
+    .Link {
+      color: mix(#fff, #002BFB, 85%);
+      text-decoration: none;
+    }
+  }
+}
+
